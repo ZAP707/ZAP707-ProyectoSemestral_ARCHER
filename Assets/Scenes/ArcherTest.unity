@@ -318,6 +318,7 @@ GameObject:
   m_Component:
   - component: {fileID: 293540364}
   - component: {fileID: 293540363}
+  - component: {fileID: 293540365}
   m_Layer: 0
   m_Name: bow_01
   m_TagString: Untagged
@@ -393,6 +394,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -224.97}
+--- !u!114 &293540365
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 293540362}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b71c2dbdc9128e4d85810fc8622bc63, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  FlechaSprite: {fileID: 725339095}
+  PuntoDeDisparo: {fileID: 293540364}
+  fuerzaDeDisparo: 20
 --- !u!1 &497528015
 GameObject:
   m_ObjectHideFlags: 0
@@ -995,7 +1011,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -2094053169
   m_SortingLayer: 1
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 57894313b93b8a447a35bf05bb3a9df8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
