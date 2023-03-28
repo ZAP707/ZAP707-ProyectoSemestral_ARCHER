@@ -44,3 +44,6 @@ TagManager:
   - name: Archer
     uniqueID: 2200914127
     locked: 0
+  - name: Background
+    uniqueID: 1233578419
+    locked: 0
