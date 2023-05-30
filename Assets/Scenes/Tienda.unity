@@ -1061,7 +1061,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -217}
+  m_AnchoredPosition: {x: 0, y: -245}
   m_SizeDelta: {x: 289.2781, y: 54.2396}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1060193875
@@ -1107,7 +1107,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1060193876}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1234423317}
+        m_TargetAssemblyTypeName: Menu, Assembly-CSharp
+        m_MethodName: Regresar
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1060193876
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1394,6 +1406,7 @@ GameObject:
   - component: {fileID: 1234423315}
   - component: {fileID: 1234423314}
   - component: {fileID: 1234423313}
+  - component: {fileID: 1234423317}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -1489,6 +1502,18 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &1234423317
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1234423312}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b29af3cf339d684399b72f711311c7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1270123647
 GameObject:
   m_ObjectHideFlags: 0
