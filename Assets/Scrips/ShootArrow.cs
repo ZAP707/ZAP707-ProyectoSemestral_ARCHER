@@ -2,11 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Shoot : MonoBehaviour
+public class ShootArrow : MonoBehaviour
 {
-    public GameObject Arrow;
-    public int LaunchForce;
+    public float LaunchForce;
 
+    public GameObject Arrow;
 
     // Start is called before the first frame update
     void Start()
@@ -19,12 +19,14 @@ public class Shoot : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            ShootArrow();
+            Shoot();
         }
     }
-    void ShootArrow()
+
+    void Shoot()
     {
         GameObject ArrowIns = Instantiate(Arrow, transform.position, transform.rotation);
+
         ArrowIns.GetComponent<Rigidbody2D>().AddForce(transform.right * LaunchForce);
     }
 
