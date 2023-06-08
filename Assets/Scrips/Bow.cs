@@ -7,24 +7,9 @@ public class Bow : MonoBehaviour
     public Vector2 Direction;
     public float force;
 
-    /*
-    public GameObject PointPrefab;
-    public GameObject[] Points;
-
-    public int numberOfPoints;
-     */
-
-    // Start is called before the first frame update
     void Start()
     {
-        /*
-        Points = new GameObject[numberOfPoints];
-
-        for (int i = 0; i < numberOfPoints; i++)
-        {
-            Points[i] = Instantiate(PointPrefab,transform.position,Quaternion.identity);
-        }
-         */
+     
     }
 
     // Update is called once per frame

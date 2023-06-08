@@ -12,7 +12,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Level_Selector.unity
     guid: 68ac09b2dd02add4fa4d3c3da8d2c18b
   - enabled: 1
-    path: Assets/Scenes/ArcherTest.unity
+    path: Assets/Scenes/Level_1.unity
     guid: 66d7d779336bf37439ce25db99e8f7b4
   - enabled: 1
     path: Assets/Scenes/Opciones.unity
